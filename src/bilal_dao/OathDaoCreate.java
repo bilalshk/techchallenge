@@ -1,13 +1,10 @@
 package bilal_dao;
 
-import bilal_bean.Bean;
-import bilal_bean.Company;
-import bilal_bean.Creator;
-import bilal_bean.Marketplace;
-import bilal_bean.Payload;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
+
+import bilal_bean.Bean;
 import ravi.util.DBConnectionManager;
 
 public class OathDaoCreate
