@@ -17,7 +17,6 @@ public class OathDaoDelete
     String query = "delete from company where m_uuid = ?";
     ps = con.prepareStatement(query);
     ps.setString(1, bean.getCreator().getUuid());
-//    ps.executeUpdate();
     ps.executeUpdate();
   }
 }
